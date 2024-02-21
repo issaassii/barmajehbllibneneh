@@ -1,0 +1,10 @@
+tejhez#
+	ra2m i = 0
+	ra2m j = 1
+
+barmajeh#
+	iza i = j :
+		i = j | i
+		iza i = j :
+			i = j & i
+
